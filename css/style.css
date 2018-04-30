@@ -54,6 +54,14 @@ span {
 		font-size: 1em;
 	}
 } 
+
+@media screen and (min-width: 201px) and (max-width:450px) {
+	.title {
+		font-size: 1.5em;
+	}
+}
+
+
 	
 
 
