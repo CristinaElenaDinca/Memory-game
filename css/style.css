@@ -18,24 +18,44 @@
 }
 
 .title {
-	color: green;
+	color: rgba(60,179,113,1);
 	text-align: center;
-	text-shadow: 4px 4px grey;
+	text-shadow: 4px 4px rgba(0,0,0,0.30);
 	font-size: 4em;
 	font-weight: bold;
 }
 
 .instructions {
-	text-decoration-color: red;
+	text-decoration-color: rgba(255, 0, 0, 1);
 	font-size: 1em;
-	color: green;
+	color: rgba(60,179,113,1);
 	margin-top: 15px;
 }
 
 span {
 	font-weight: bolder;
-	color: red;
+	color: rgba(255, 0, 0, 1);
+	text-shadow: 1px 1px rgba(0,0,0,0.30);
 }
+
+.hidden {
+	display: none;
+}
+
+
+@media screen and (max-width:200px) {
+	.vizible {
+		display:none;
+	}
+
+	.hidden {
+		display: inline; 
+		color: rgba(255, 0, 0, 1);
+		font-size: 1em;
+	}
+} 
+	
+
 
 /*TO DO: adding break point to a minimum viewport to no longer display main-board and show a message instructing that a wider instrument is needed*/
 /*TO DO: add a break point to a maximum viewport to no longer resize the main-board and add margin auto*/
