@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+	[class*="zocial-"]:before {
+  	font-family: 'zocial', sans-serif;
+  	font-size: 100px;
+  	padding-left: 10px;
+}
+
 .main-board {
 	display: flex;
 	flex-wrap: wrap;
@@ -43,7 +50,7 @@ span {
 }
 
 
-@media screen and (max-width:200px) {
+@media screen and (max-width:201px) {
 	.vizible {
 		display:none;
 	}
@@ -60,7 +67,60 @@ span {
 		font-size: 1.5em;
 		text-shadow: 1px 1px rgba(0,0,0,0.30);
 	}
+
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 35px;
+	  	padding-left: 10px;
+	}
 }
+
+@media screen and (min-width: 230px) and (max-width:289px) {
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 40px;
+	  	padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 290px) and (max-width:329px) {
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 50px;
+	  	padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 330px) and (max-width:409px) {
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 60px;
+	  	padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width:429px) {
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 70px;
+	  	padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 430px) and (max-width:487px) {
+	@import url(http://weloveiconfonts.com/api/?family=zocial);
+		[class*="zocial-"]:before {
+	  	font-family: 'zocial', sans-serif;
+	  	font-size: 80px;
+	  	padding-left: 10px;
+	}
+}
+
 
 @media screen and (min-width: 550px) {
 	.main-board {
