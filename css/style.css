@@ -5,13 +5,36 @@
 	background-color: silver;
 	margin: auto;
 	border-radius: 10px;
+	width: 97%;
+	height: 97vw;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .main-board>div {
 	border-radius: 10px;
-	width: calc(98% / 4);
+	width: calc(95% / 4);
 	background: lightblue;
-	height: calc(98vw / 4);
+	height: calc(95vw / 4);
+}
+
+.title {
+	color: green;
+	text-align: center;
+	text-shadow: 4px 4px grey;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.instructions {
+	text-decoration-color: red;
+	font-size: 1em;
+	color: green;
+	margin-top: 15px;
+}
+
+span {
+	font-weight: bolder;
+	color: red;
 }
 
 /*TO DO: adding break point to a minimum viewport to no longer display main-board and show a message instructing that a wider instrument is needed*/
