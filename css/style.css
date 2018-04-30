@@ -1,0 +1,18 @@
+.main-board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: silver;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.main-board>div {
+	border-radius: 10px;
+	width: calc(98% / 4);
+	background: lightblue;
+	height: calc(98vw / 4);
+}
+
+/*TO DO: adding break point to a minimum viewport to no longer display main-board and show a message instructing that a wider instrument is needed*/
+/*TO DO: add a break point to a maximum viewport to no longer resize the main-board and add margin auto*/
