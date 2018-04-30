@@ -62,6 +62,24 @@ span {
 	}
 }
 
+@media screen and (min-width: 550px) {
+	.main-board {
+		width: 550px;
+		height: 550px;
+		margin: auto;
+	}
+
+	.main-board>div {
+		width: calc(540px / 4);
+		height: calc(540px / 4);
+	}
+
+	.instructions {
+		width: 550px;
+		margin: auto;
+		margin-top: 10px;
+	}
+}
 
 	
 
