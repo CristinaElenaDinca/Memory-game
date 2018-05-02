@@ -5,15 +5,21 @@
   	padding-left: 10px;
 }
 
+.start-game {
+	color: rgba(255,0,0,1);
+	font-size: 1em;
+}
+
 .back {
 	color: red;
 	border-width: 2px;
 	font-size: 1.5em;
 	text-align: center;
+	display: none;
 }
 
 .front {
-	display: none;
+	
 }
 
 .main-board {
@@ -33,6 +39,10 @@
 	width: calc(95% / 4);
 	background: lightblue;
 	height: calc(95vw / 4);
+}
+
+.back {
+	text-align: center;
 }
 
 .title {
