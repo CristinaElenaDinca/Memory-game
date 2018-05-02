@@ -7,7 +7,9 @@
 
 .back {
 	color: red;
-	border: black, solid;
+	border-width: 2px;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .front {
@@ -26,7 +28,7 @@
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.main-board>div.cell.back.front {
+.cell {
 	border-radius: 10px;
 	width: calc(95% / 4);
 	background: lightblue;
@@ -138,7 +140,7 @@ span {
 		margin: auto;
 	}
 
-	.main-board>div.cell.back.front {
+	.cell {
 		width: calc(540px / 4);
 		height: calc(540px / 4);
 	}
