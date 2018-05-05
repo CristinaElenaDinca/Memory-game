@@ -10,6 +10,10 @@
 	font-size: 1em;
 }
 
+.gameOver {
+	font-size: 3em;
+}
+
 .back {
 	color: red;
 	border-width: 2px;

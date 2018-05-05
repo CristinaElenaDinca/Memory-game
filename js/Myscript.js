@@ -31,12 +31,13 @@ $(".cell").click(function( event ) {
 		}
 	}
 	if($(".solved").length == 16) {
- 		$(".main-board").addClass("close");
+ 		$(".main-board").hide();
  		$(".gameOver").removeClass("close");
 	};
 });
  
 $(".again").click(function() {
 	$(".gameOver").addClass("close");
-	$(".main-board").removeClass(close);
+	$(".main-board").show();
+	$(".front").addClass("close").removeClass("solved");
 });
