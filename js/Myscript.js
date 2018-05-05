@@ -12,3 +12,31 @@ $(".start-game").click(function () {
 		arrayOfDiv[i].style.order = arrayOfOrder[i];
 	};
 });
+
+$(".cell").click(function( event ) {
+	let card = $(event.target).children().first();
+	card.removeClass("close");
+	card.addClass("open");
+	let choises = $(".open").length;
+	if (choises == 2) {
+		let a = $(".open").first().attr("class");
+		let b = $(".open").last().attr("class");
+		if (a == b) {
+			$(".open").removeClass("open").addClass("solved");
+		}
+		else {
+			setTimeout(function() { 
+				$(".open").removeClass("open").addClass("close")
+			}, 500);
+		}
+	}
+	if($(".solved").length == 16) {
+ 		$(".main-board").addClass("close");
+ 		$(".gameOver").removeClass("close");
+	};
+});
+ 
+$(".again").click(function() {
+	$(".gameOver").addClass("close");
+	$(".main-board").removeClass(close);
+});
