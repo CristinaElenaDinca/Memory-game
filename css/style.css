@@ -10,9 +10,14 @@
 	font-size: 1em;
 }
 
+button {
+	background-color: rgba(0,255,0,1);
+}
+
 .gameOver {
 	font-size: 3em;
 }
+
 
 .back {
 	color: red;

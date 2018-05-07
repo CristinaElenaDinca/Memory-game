@@ -1,3 +1,7 @@
+$(".main-board").hide();
+
+let clicks=0;
+
 $(".start-game").click(function () {
 	let arrayOfOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 	for (let i = 0; i < 200; i++) {
@@ -11,9 +15,11 @@ $(".start-game").click(function () {
 	for (let i = 0; i < 15; i++) {
 		arrayOfDiv[i].style.order = arrayOfOrder[i];
 	};
+	$(".main-board").show();
 });
 
 $(".cell").click(function( event ) {
+	clicks=clicks+1;
 	let card = $(event.target).children().first();
 	card.removeClass("close");
 	card.addClass("open");
