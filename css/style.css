@@ -197,6 +197,12 @@ span {
 		margin: auto;
 		margin-top: 10px;
 	}
+
+	.gameOver {
+		width: 550px;
+		margin: auto;
+		margin-top: 10px;
+	}
 }
 
 	
