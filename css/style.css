@@ -1,6 +1,7 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-	[class*="zocial-"]:before {
-  	font-family: 'zocial', sans-serif;
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+	/* fontawesome */
+	[class*="fontawesome-"]:before {
+ 	font-family: 'FontAwesome', sans-serif;
   	font-size: 100px;
   	padding-left: 10px;
 }
@@ -16,6 +17,15 @@ button {
 
 .gameOver {
 	font-size: 3em;
+}
+
+.rates {
+	font-size: 1em;
+	color: rgba(63, 191, 118, 1);
+}
+
+.fontawesome-star {
+	color: rgba(191, 182, 63, 1);
 }
 
 
@@ -97,54 +107,60 @@ span {
 		text-shadow: 1px 1px rgba(0,0,0,0.30);
 	}
 
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
-	  	font-size: 35px;
-	  	padding-left: 10px;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
+	 	font-size: 35px;
+	 	padding-left: 10px;
 	}
 }
 
 @media screen and (min-width: 230px) and (max-width:289px) {
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
 	  	font-size: 40px;
 	  	padding-left: 10px;
 	}
 }
 
 @media screen and (min-width: 290px) and (max-width:329px) {
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
 	  	font-size: 50px;
 	  	padding-left: 10px;
 	}
 }
 
 @media screen and (min-width: 330px) and (max-width:409px) {
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
 	  	font-size: 60px;
 	  	padding-left: 10px;
 	}
 }
 
 @media screen and (min-width: 410px) and (max-width:429px) {
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
 	  	font-size: 70px;
 	  	padding-left: 10px;
 	}
 }
 
 @media screen and (min-width: 430px) and (max-width:487px) {
-	@import url(http://weloveiconfonts.com/api/?family=zocial);
-		[class*="zocial-"]:before {
-	  	font-family: 'zocial', sans-serif;
+	@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+ 		font-family: 'FontAwesome', sans-serif;
 	  	font-size: 80px;
 	  	padding-left: 10px;
 	}
@@ -164,6 +180,18 @@ span {
 	}
 
 	.instructions {
+		width: 550px;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.score {
+		width: 550px;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.rates {
 		width: 550px;
 		margin: auto;
 		margin-top: 10px;
