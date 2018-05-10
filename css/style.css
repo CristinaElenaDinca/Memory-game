@@ -29,7 +29,6 @@ button {
 	font-size:10px;
 }
 
-
 .back {
 	color: red;
 	border-width: 2px;
@@ -89,7 +88,7 @@ span {
 	display: none;
 }
 
-
+/*I have added minor braking points to rearrange mostly by resizing the font icons to better fit the main-board size*/
 @media screen and (max-width:201px) {
 	.vizible {
 		display:none;
@@ -167,7 +166,7 @@ span {
 	}
 }
 
-
+/*From 550px wide I have designed a fit wide main board and a display and added margins to maintain the content centered. I wanted to make sure the content of the main board stays in the main window and that the user doesn't have to scroll down to click on the lower row.*/
 @media screen and (min-width: 550px) {
 	.main-board {
 		width: 550px;

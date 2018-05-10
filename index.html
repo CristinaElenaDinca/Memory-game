@@ -20,6 +20,8 @@
 			<span class="fontawesome-star stars4 prize rates"></span>
 			<div class="clicks rates"></div>
 		</div>
+
+		<!--I am defining the board game as a block of divs and I will organize it with flex-box display option to control it easier in responsive conditions.Each cell has 2 faces: the back and the front . The front one has the fontawesome element attached and is hidden at the beginning and randomly organized by JavaScript.-->
 		<div class="main-board vizible">
 			<div class="cell">
 				<div class="fontawesome-coffee front close"></div>
@@ -86,10 +88,12 @@
 				<div class="back"></div>
 			</div>
 		</div>
-
+		<!--This message will appear when the viewport is to small for the game board to be displayed.-->	
 		<div class="hidden"> We are sorry for the inconvenient but, you need a larger screen for this game!</div>
 
+		<!--This hidden message appears when the game is over and will be hidden when the game begins. I am working around with CSS and JavaScript!-->	
 		<div class="gameOver close">"<span>Congratulations!</span> You have won this round! We hope you enjoyed! Ready for a new <button class="start-game again">(RE)START!</button>. </div>
+		<!--This section has a dynamic content that will be inserted and displayed  with JavaScript at the end of the game-->
 		<div class="gameOver second close"></div>
 
 		<div class="instructions vizible"> <span>Instructions:</span> You must flip all the cards! When you flip two similar cards they stay up, if the cards are different they flip back! <span>Best of Luck!</span></div>
